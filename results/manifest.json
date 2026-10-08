@@ -1,0 +1,122 @@
+{
+  "version": "1.0.0",
+  "quick": false,
+  "seconds": 538.9,
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "platform": "Linux-6.18.44-fc-v80-x86_64-with-glibc2.39",
+  "summary": {
+    "discrete_hedging": {
+      "scaling_exponent": -0.49108625440399156,
+      "scaling_exponent_se": 0.0012743120249442271,
+      "ratio_to_theory_at_63": 0.9799964332784836,
+      "ratio_to_theory_at_1008": 0.9968757042853025,
+      "largest_abs_mean_in_se": 3.6192417501815153,
+      "rule_of_thumb_ratio_off_the_money": [
+        1.1787468879702274,
+        1.2255221367964055
+      ],
+      "leading_order_ratio_at_1008": [
+        1.004798892634947,
+        1.00279009376212,
+        1.0059989223511592
+      ],
+      "leading_order_ratio_at_63": [
+        1.0224104676183101,
+        1.0159894846349573,
+        1.0195252159272015
+      ]
+    },
+    "drift_bias": {
+      "largest_gap_to_prediction_in_se": 2.0786731432329986,
+      "worst_mean_pct_of_premium": -2.1482695009180794
+    },
+    "volatility_mismatch": {
+      "locked_in_value": 1.994503639047606,
+      "realized_hedge_means": [
+        1.9950387152842515,
+        1.994307977263326,
+        1.9948366467193133,
+        1.9957750970959292
+      ],
+      "implied_hedge_means": [
+        1.8182703856226385,
+        1.9958451911033324,
+        1.9966582749079673,
+        1.8715480697293876
+      ],
+      "theory_implied_hedge_means": [
+        1.8181158630505598,
+        1.9931059463148435,
+        1.9928406760468973,
+        1.870852587929037
+      ],
+      "min_gamma_rent_correlation": 0.9996070698688209,
+      "max_share_of_paths_losing": 0.0
+    },
+    "leland": {
+      "max_abs_leland_mean_pct_of_premium": 0.09615006962334784,
+      "naive_mean_at_252": -0.5023931991926371,
+      "leland_mean_at_252": 3.579603976980856e-05
+    },
+    "frontier": {
+      "risk_reduction_pct_min": 28.903120970915218,
+      "risk_reduction_pct_max": 45.42274966843009,
+      "best_clock_std": 0.2954785040521674,
+      "best_band_std": 0.2377184822682491
+    },
+    "jump_risk": {
+      "smooth_std_reduction_pct": 86.88666715240497,
+      "jump_std_reduction_pct": 8.06839104467274,
+      "p01_ratio_at_most_frequent": 20.654174728477813,
+      "largest_abs_jump_mean_in_se": 1.294278163451251
+    },
+    "implied_vol": {
+      "options": 1000000,
+      "seconds": 1.2828143720007574,
+      "options_per_second": 779536.0122449654,
+      "returned_nan": 37805,
+      "accuracy": [
+        {
+          "time_value_above": 0.0001,
+          "options": 897024,
+          "solved": 897024,
+          "max_abs_error": 2.964295475749168e-13,
+          "median_abs_error": 2.220446049250313e-16
+        },
+        {
+          "time_value_above": 1e-06,
+          "options": 928459,
+          "solved": 928459,
+          "max_abs_error": 2.6006086173424592e-11,
+          "median_abs_error": 2.220446049250313e-16
+        },
+        {
+          "time_value_above": 1e-08,
+          "options": 944070,
+          "solved": 944070,
+          "max_abs_error": 9.370662024110743e-10,
+          "median_abs_error": 2.220446049250313e-16
+        },
+        {
+          "time_value_above": 1e-10,
+          "options": 953607,
+          "solved": 953607,
+          "max_abs_error": 1.1991608561690015e-07,
+          "median_abs_error": 2.220446049250313e-16
+        }
+      ]
+    },
+    "smile_fit": {
+      "clean_rmse_bps_mean": 2.943634790389919,
+      "clean_rmse_bps_max": 5.82952617604037,
+      "noise10_rmse_vs_truth_bps": 5.440061818769693,
+      "noise30_rmse_vs_truth_bps": 13.584853386348371,
+      "fits": 205,
+      "fits_with_butterfly_arbitrage": 0,
+      "worst_calendar_violation": 0.0
+    }
+  }
+}

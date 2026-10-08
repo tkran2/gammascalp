@@ -1,0 +1,4 @@
+# Versions used for the delivered run (results/manifest.json).
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
